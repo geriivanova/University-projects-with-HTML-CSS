@@ -4,6 +4,7 @@
 html, body{
 	font-family:'Lato';
 	font-weight:normal;
+	margin: 0;
 }
 .bg-nav{
 	background:#3a454b;
@@ -35,6 +36,14 @@ html, body{
 .nav-item{
 	
 }
-.nav-link 
-.active
-.nav-link
+.nav-link{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	padding: 10px 20px;
+	border: solid 3px #3a454b;
+}
+.active, .nav-link:hover{
+	border: solid 3px #4bcaff;
+	color: #4bcaff;
+}
