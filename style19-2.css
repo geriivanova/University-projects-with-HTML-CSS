@@ -1,0 +1,40 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+html, body{
+	font-family:'Lato';
+	font-weight:normal;
+}
+.bg-nav{
+	background:#3a454b;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.d-flex{
+	display: flex;
+	flex-wrap: wrap;
+} 
+.navbar{
+	justify-content: space-between;
+	align-items: center;
+}
+.site-title{
+	color: white;
+	font-size: 24px;
+}
+.text-blue{
+	color: #4bcaff;
+}
+.nav{
+	list-style-type: none;
+	padding-left: 0px;
+	mardin: 0;
+}
+.nav-item{
+	
+}
+.nav-link 
+.active
+.nav-link
