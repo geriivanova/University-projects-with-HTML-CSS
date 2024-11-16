@@ -124,6 +124,7 @@
 		.article-text{
 			color: #656565;
 			font-family:Arial;
+			display: inline-block;
 		}
 		.titles{
 			color: black;
@@ -148,8 +149,15 @@
 			justify-content: center;
 			column-gap: 16px;
 		}
-		.section1{
-			width: 800px;
+		.section1 div{
+			margin-bottom: 10px;
+		}
+		.section1>div{
+			margin-top: 5px;
+		}
+		.section2 div{
+			display: flex;
+			margin-bottom: 10px;
 		}
 	</style>
 </head>
@@ -220,47 +228,47 @@
 
 		<section class = "middle">
 			<div class="section1">
-				<div>Мария Станимирова Токушева</div>
+				<div class = "name">Мария Станимирова Токушева</div>
 				<div class = "down-article">Изтегли статията</div>
-				<div>Красимира Найденова</div>
+				<div class = "name">Красимира Найденова</div>
 				<div class = "down-article">Изтегли статията</div>
-				<div>Радина Димитрова Момчилова</div>
+				<div class = "name">Радина Димитрова Момчилова</div>
 				<div class = "down-article">Изтегли статията</div>
-				<div>Андрияна Андреева, Андрей Александров</div>
+				<div class = "name">Андрияна Андреева, Андрей Александров</div>
 				<div class = "down-article">Изтегли статията</div>
-				<div>Златозар Йорданов</div>
+				<div class = "name">Златозар Йорданов</div>
 				<div class = "down-article">Изтегли статията</div>
-				<div>Венцислав Антонов Славов</div>
+				<div class = "name">Венцислав Антонов Славов</div>
 				<div class = "down-article">Изтегли статията</div>
-				<div>Жана Красимирова Лечева</div>
+				<div class = "name">Жана Красимирова Лечева</div>
 				<div class = "down-article">Изтегли статията</div>
-				<div>Тамара Ангелова Влайкова</div>
+				<div class = "name">Тамара Ангелова Влайкова</div>
 				<div class = "down-article">Изтегли статията</div>
 			</div>
 
 			<div class="section2">
-				<div class = "div1">
+				<div class = "article-text">
 					Модел за определяне на оптимална производствена програма
 				</div>
-				<div class = "div2">
+				<div class = "article-text">
 					Банки или пазари(поглед върху полезността им за България по време на кризата от 2008г. и след нея)
 				</div>
-				<div class = "div3">
+				<div class = "article-text">
 					Банковият персонал - фактор за клиентската миграция в дребното банкиране
 				</div>
-				<div class = "div4">
+				<div class = "article-text">
 					За действителността на забраните за упражняване на конкурентна дейност паралелно и/или след пректратяване на трудовия договор
 				</div>
-				<div class = "div5">
+				<div class = "article-text">
 					За някои различия в уредбата на търговския представител в Търговския закон и в правото на Европейския съюз
 				</div>
-				<div class = "div6">
+				<div class = "article-text">
 					Прехвърляне на дружествени дялове в капитала на ООД. Актуални нормативни промени
 				</div>
-				<div class = "div7"> 
+				<div class = "article-text"> 
 					Сравнително-правен анализ на неустойката и търговския залог
 				</div>
-				<div class = "div8">
+				<div class = "article-text">
 					Регламент № 1672/2018 на ЕП и на Съвета относно контрола на паричните средства, които се внасят в съюза или изнасят от него и санкциите в българското законодателство при недеклариране на парични средства
 				</div>
 			</div>
