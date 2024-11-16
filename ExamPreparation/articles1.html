@@ -132,15 +132,21 @@
 			font-size: 12px;
 			font-weight: bold;
 			text-align: center;
+			margin-top: 20px;
 		}
 		.right{
 			display: inline-block;
 			float: right;
-			background: #DADADA;
+			background: #F4F4F4;
 			width: 200px;
 			text-align: center;
 			padding-bottom: 10px;
 			padding-top: 10px;
+		}
+		.container{
+			display:flex;
+			justify-content: center;
+			column-gap: 16px;
 		}
 	</style>
 </head>
@@ -175,6 +181,9 @@
 			</ul>
 		</div>
 	</header>
+	<div class = "container">
+		
+	
 	<aside class = "left">
 		<div class= "image">
 			<img src="http://placehold.co/164x230" alt="">
@@ -208,88 +217,50 @@
 		</div>
 	</aside>
 	
-	<div class = "middle">
-		<div class = "name">
-			Мария Станимирова Токушева
+	<section class = "middle">
+		<div class="section1">
+			<div>Мария Станимирова Токушева</div>
+			<div class = "down-article">Изтегли статията</div>
+			<div>Красимира Найденова</div>
+			<div class = "down-article">Изтегли статията</div>
+			<div>Радина Димитрова Момчилова</div>
+			<div class = "down-article">Изтегли статията</div>
+			<div>Андрияна Андреева, Андрей Александров</div>
+			<div class = "down-article">Изтегли статията</div>
+			<div>Златозар Йорданов</div>
+			<div class = "down-article">Изтегли статията</div>
+			<div>Венцислав Антонов Славов</div>
+			<div class = "down-article">Изтегли статията</div>
+			<div>Жана Красимирова Лечева</div>
+			<div class = "down-article">Изтегли статията</div>
+			<div>Тамара Ангелова Влайкова</div>
+			<div class = "down-article">Изтегли статията</div>
 		</div>
-		<div class = "down-article">
-			Изтегли статията
+
+		<div class="section2">
+			
 		</div>
-		<div class = "article-text">
+
+		
+		
 			Модел за определяне на оптимална производствена програма
-		</div>
-
-		<div class = "name">
-			Красимира Найденова
-		</div>
-		<div class = "down-article">
-			Изтегли статията
-		</div>
-		<div class = "article-text">
+		
 			Банки или пазари(поглед върху полезността им за България по време на кризата от 2008г. и след нея)
-		</div>
-
-		<div class = "name">
-			Радина Димитрова Момчилова
-		</div>
-		<div class = "down-article">
-			Изтегли статията
-		</div>
-		<div class = "article-text">
+		
 			Банковият персонал - фактор за клиентската миграция в дребното банкиране
-		</div>
-
-		<div class = "name">
-			Андрияна Андреева, Андрей Александров
-		</div>
-		<div class = "down-article">
-			Изтегли статията
-		</div>
-		<div class = "article-text">
+		
 			За действителността на забраните за упражняване на конкурентна дейност паралелно и/или след пректратяване на трудовия договор
-		</div>
-
-		<div class = "name">
-			Златозар Йорданов
-		</div>
-		<div class = "down-article">
-			Изтегли статията
-		</div>
-		<div class = "article-text">
+		
 			За някои различия в уредбата на търговския представител в Търговския закон и в правото на Европейския съюз
-		</div>
-
-		<div class = "name">
-			Венцислав Антонов Славов
-		</div>
-		<div class = "down-article">
-			Изтегли статията
-		</div>
-		<div class = "article-text">
+		
 			Прехвърляне на дружествени дялове в капитала на ООД. Актуални нормативни промени
-		</div>
-
-		<div class = "name">
-			Жана Красимирова Лечева
-		</div>
-		<div class = "down-article">
-			Изтегли статията
-		</div>
-		<div class = "article-text">
+		
 			Сравнително-правен анализ на неустойката и търговския залог
-		</div>
-
-		<div class = "name">
-			Тамара Ангелова Влайкова
-		</div>
-		<div class = "down-article">
-			Изтегли статията
-		</div>
-		<div class = "article-text">
+		
 			Регламент № 1672/2018 на ЕП и на Съвета относно контрола на паричните средства, които се внасят в съюза или изнасят от него и санкциите в българското законодателство при недеклариране на парични средства
-		</div>
+		
 
-	</div>
+	</section>
 
 	<aside class = "right">
 		<div class = "image">
@@ -298,10 +269,10 @@
 		<div class = "titles">
 			Търси статии:
 		</div>	
-		<div>
-			<ul>
-				<li>
-					по година
+		<div >
+			<ul class = "list">
+				<li class = "list-item">
+				    по година
 				</li>
 				<li>
 					по заглавие
@@ -331,5 +302,6 @@
 			 <img src="D:/email.png" alt="envelope"> sp.Izvestiya@ue-varna.bg
 		</div>
 	</aside>
+	</div>
 </body>
 </html>
