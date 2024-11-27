@@ -1,80 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
 </head>
 <body>
+
+<script>
+	const task1 = () => {
+		for (let i = 0; i <= 10; i++) {
+			console.log(i);
+		}
+	}
+	task1();
+
+	const task2 = () => {
+		let r = '';
+		for (let i = 10; i >= 0; i--) {
+			r = r + i + ' ';
+		}
+		console.log(r);
+	}
+	task2();
+
+	const task3 = () => {
+		let w1 = prompt('word 1');
+		let w2 = prompt('word 2');
+
+		if(w1.length > w2.length){
+			console.log(w1);
+		}
+		else if(w1.length < w2.length){
+			console.log(w2);
+		}
+		else{
+			console.log('words have the same length');
+			console.log(`word1 ${w1} and word2 ${w2} have the same length`);
+		}
+	}
+	//task3();
 	
-	<script>
-		const task1 = () => {
-			for (let i = 0; i <= 10; i++) {
-				console.log(i);
-			}
+	const task4 = () => {
+		let n = prompt('number');
+
+		for(let i = 0; i < n.length; i++){
+			console.log(n[i]);
 		}
-		task1();
+	}
 
-		const task2 = () => {
-			let r = '';
-			for (let i = 10; i >= 0; i--) {
-				r = r + i + ' ';
-			}
-			console.log(r);
+	/*let temp = 0;
+	while(n > 0){
+		temp = n % 10;
+		n = parseInt(n/10);
+	}*/
+
+	//task4();
+
+	const task5 = () => {
+		let n = prompt('number');
+		for(let i = 1; i <= n; i = i * 2){
+			console.log(i);
 		}
-		task2();
+	}
+	//task5();
 
-		const task3 = () => {
-			let w1 = prompt('word 1');
-			let w2 = prompt('word 2');
-
-			if(w1.length > w2.length){
-				console.log(w1);
-			}
-			else if(w1.length < w2.length){
-				console.log(w2);
-			}
-			else{
-				console.log('words have the same length');
-				console.log(`word1 ${w1} and word2 ${w2} have the same length`);
-			}
+	const task6 = () => {
+		let numbers = prompt('numbers');
+		let arr = numbers.split(', ');
+		let sum = 0;
+		for(let i = 0; i < arr.length; i++){
+			sum = sum + parseInt(arr[i]);
 		}
-		//task3();
-		
-		const task4 = () => {
-			let n = prompt('number');
+		console.log(sum);
+	}
+	//task6();
 
-			for(let i = 0; i < n.length; i++){
-				console.log(n[i]);
+	const task7 = () =>{
+		let h = 5;
+		let u = 2;
+		let n = 1;
+		let d = 1;
+		let a = u;
+
+		while(a < h){
+			a = a - n;
+			d++;
+			if(a + u >= h){
+				console.log(d);
 			}
+			a = a + u;
 		}
-
-		/*let temp = 0;
-		while(n > 0){
-			temp = n % 10;
-			n = parseInt(n/10);
-		}*/
-
-		//task4();
-
-		const task5 = () => {
-			let n = prompt('number');
-			for(let i = 1; i <= n; i = i * 2){
-				console.log(i);
-			}
-		}
-		//task5();
-
-		const task6 = () => {
-			let numbers = prompt('numbers');
-			let arr = numbers.split(', ');
-			let sum = 0;
-			for(let i = 0; i < arr.length; i++){
-				sum = sum + parseInt(arr[i]);
-			}
-			console.log(sum);
-		}
-		task6();
-	</script>
+	}
+	task7();
+</script>
 </body>
 </html>
