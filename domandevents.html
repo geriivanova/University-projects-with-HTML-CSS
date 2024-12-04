@@ -162,7 +162,10 @@
         let task10 = document.querySelectorAll('img');
         task10.forEach(item => {
             item.addEventListener('mouseenter', (e) => {
-            e.target.style.border = 'solid 13px gold';
+            //e.target.style.border = 'solid 13px gold';
+                task10.forEach(i => {
+                    i.style.border = 'solid 13px gold';
+                });
            });
         });
         
