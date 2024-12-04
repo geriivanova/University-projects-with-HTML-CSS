@@ -186,13 +186,15 @@
 
         let task13 = document.querySelectorAll('*');
         task13.forEach(item => {
-            item.addEventListener('mouseenter', (e) => {
+            item.addEventListener('mouseover', (e) => {
                 e.target.classList.add('rounded');
             });
-            item.addEventListener('mouseleave', (e) => {
+            item.addEventListener('mouseout', (e) => {
                 e.target.classList.remove('rounded');
             });
         });
+
+
     </script>
 </body>
 </html>
