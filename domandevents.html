@@ -131,8 +131,14 @@
         let task4 = document.querySelectorAll('img');
         task4.forEach(item => {
             console.log(item.src);
-            item.src = "https://cataas.com/cat";
+            item.src = "https://cataas.com/cat";/*task5*/
             item.style.width = "150px";
+        });
+
+        let task6 = document.querySelectorAll('*');
+        task6.forEach(item => {
+            console.log(item.getAttribute('class'));
+            console.log(item.className);
         });
     </script>
 </body>
