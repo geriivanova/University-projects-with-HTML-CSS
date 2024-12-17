@@ -135,7 +135,7 @@
 			
 		</div>
 		<div class="container">
-			<div class="ph1">
+			<div class="ph1" id = "photoID">
 				<img src="http://placehold.co/100x100" alt="">
 			</div>
 			<div class="ph1">
@@ -266,5 +266,16 @@
 			</table>
 		</div>
 	</div>
+
+	<script>
+		let photo = document.querySelectorAll('.ph1');
+		photo.forEach(item => {
+            item.addEventListener('mouseenter', (e) => {
+                let url = document.getElementById(".ph1").getAttribute("src");
+                console.log(url);
+            });
+		});
+
+	</script>
 </body>
 </html>
