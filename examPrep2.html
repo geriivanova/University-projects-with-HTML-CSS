@@ -82,32 +82,32 @@
 			<h1><span class="white">< Web </span><span class="blue"> Chalange[] </span><span class="white"> > - <span class="green"> JS </span> </span></h1>
 		</div>
 		<div class="bigBox">
-			<div class="box1">
+			<div class="box1" id = "boxID">
 				<ul>
 					<li>
-						<span class="white textUnderline">Built-in objects</span>
+						<a href="#" class="white textUnderline">Built-in objects</a>
 					</li>
 					<li>
-						<span class="white textUnderline">Expressions & operators</span>
+						<a href="#" class="white textUnderline">Expressions & operators</a>
 					</li>
 					<li>
-						<span class="white textUnderline">Statements & declarations</span>
+						<a href="#" class="white textUnderline">Statements & declarations</a>
 					</li>
 					<li>
-						<span class="white textUnderline">Functions</span>
+						<a href="#" class="white textUnderline">Functions</a>
 					</li>
 					<li>
-						<span class="white textUnderline">Classes</span>
+						<a href="#" class="white textUnderline">Classes</a>
 					</li>
 					<li>
-						<span class="white textUnderline">Regular expressions</span>
+						<a href="#" class="white textUnderline">Regular expressions</a>
 					</li>
 					<li>
-						<span class="white textUnderline">Errors</span>
+						<a href="#" class="white textUnderline">Errors</a>
 					</li>
 				</ul>
 			</div>
-			<div class="box2">
+			<div class="box2" id = "box2ID">
 				<ul>
 					<li>
 						<span class="white textUnderline">___</span>
@@ -268,11 +268,24 @@
 	</div>
 
 	<script>
-		/*let photo = document.querySelectorAll(".container .ph1");
-		photo.forEach(item => {
-            item.addEventListener("mouseover", (e) => 
-                console.log("Address is: " + item.src));
-		});*/
+		//1зад
+		let links = document.querySelectorAll("#boxID a");
+		let rightBox = document.querySelectorAll("#box2ID span.white");
+
+		let index = 0;
+		links.forEach(item => {
+			item.addEventListener('click', (e) => {
+				e.preventDefault();
+				if(index < rightBox.length){
+					rightBox[index].textContent = item.textContent;
+					index++;
+				}
+				else{
+					alert("No space left");
+				}
+			});
+		});
+		//2зад
 		document.querySelectorAll('.hoverImage').forEach(img => {
             img.addEventListener('mouseover', () => console.log(img.src));
         });
