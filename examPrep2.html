@@ -136,25 +136,25 @@
 		</div>
 		<div class="container">
 			<div class="ph1">
-				<img src="http://placehold.co/100x100" alt="">
+				<img src="http://placehold.co/100x100" alt="" class = "hoverImage">
 			</div>
 			<div class="ph1">
-				<img src="http://placehold.co/110x110" alt="">
+				<img src="http://placehold.co/110x110" alt="" class = "hoverImage">
 			</div>
 			<div class="ph1">
-				<img src="http://placehold.co/120x120" alt="">
+				<img src="http://placehold.co/120x120" alt="" class = "hoverImage">
 			</div>
 			<div class="ph1">
-				<img src="http://placehold.co/130x130" alt="">
+				<img src="http://placehold.co/130x130" alt="" class = "hoverImage">
 			</div>
 			<div class="ph1">
-				<img src="http://placehold.co/120x120" alt="">
+				<img src="http://placehold.co/120x120" alt="" class = "hoverImage">
 			</div>
 			<div class="ph1">
-				<img src="http://placehold.co/110x110" alt="">
+				<img src="http://placehold.co/110x110" alt="" class = "hoverImage">
 			</div>
 			<div class="ph1">
-				<img src="http://placehold.co/100x100" alt="">
+				<img src="http://placehold.co/100x100" alt="" class = "hoverImage">
 			</div>
 		</div>
 
@@ -268,13 +268,14 @@
 	</div>
 
 	<script>
-		let photo = document.querySelectorAll('.container ph1');
+		/*let photo = document.querySelectorAll(".container .ph1");
 		photo.forEach(item => {
-            item.addEventListener('mouseenter', (e) => {
-                console.log("Address is: " + item.src);
-            });
-		});
-
+            item.addEventListener("mouseover", (e) => 
+                console.log("Address is: " + item.src));
+		});*/
+		document.querySelectorAll('.hoverImage').forEach(img => {
+            img.addEventListener('mouseover', () => console.log(img.src));
+        });
 	</script>
 </body>
 </html>
