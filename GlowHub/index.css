@@ -70,9 +70,29 @@
 }
 
 .backgroundimg{
-	background-image:url(images/background2.jpg);
 	height: 600px;
-    background-size:cover;
-    background-repeat:no-repeat;
-    opacity: 0.6;
+    position: relative;
+}
+.backgroundimg::before{
+	background-image:url(images/background2.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	content: '';
+	position: absolute;
+	inset: 0;
+	opacity: 0.6;
+}
+h2{
+	color: #423736;
+	isolation: isolate;
+	text-align: center;
+	font-family: Sofia;
+	margin: 50px;
+
+}
+h3{
+	color: #423736;
+	isolation: isolate;
+	text-align: center;
+	font-family: Lucida Console;
 }
