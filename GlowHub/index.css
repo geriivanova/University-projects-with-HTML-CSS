@@ -114,7 +114,7 @@ p{
     font-weight: bold;
     font-family: Lucida Console;
 }
-.maintext p{
+.maintext > p{
 	color: #987185;
 	margin: 70px;
 	text-align: center;
@@ -130,14 +130,25 @@ p{
   	align-items: center;
 	margin-top: 100px;
 }
-.mainimg{
+.leftcol{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-left: 40px;
+	padding-left: 100px;
 }
-.imgtext{
+.rightcol{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding-left: 50px;
+}
+.text1{
+	font-weight: bold;
+    font-family: Lucida Console;
+    color: #423736;
+}
+.text2{
+	font-family: Sofia;
+	font-weight: bold;
+	color: #987185;
 }
