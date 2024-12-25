@@ -142,6 +142,10 @@ p{
 	align-items: center;
 	padding-left: 50px;
 }
+.textcontainer{
+	display: flex;
+	flex-direction: column;
+}
 .text1{
 	font-weight: bold;
     font-family: Lucida Console;
