@@ -5,7 +5,6 @@
 }
 
 .navbar {
-	list-style-type: none;
 	padding-left: 0;
 	margin: 0;
 	background: #987185;
@@ -18,11 +17,12 @@
 }
 
 .logoimg {
-	margin-right: 20px; 
+	margin-right: 100px;
+	margin-left: 50px;
 }
 
 .logo {
-	width: 150px;
+	width: 200px;
 	height: auto; 
 }
 
@@ -31,6 +31,7 @@
 	padding: 0;
 	margin: 0;
 	align-items: center; 
+	list-style: none;
 }
 
 .nav-item {
@@ -39,14 +40,17 @@
 }
 
 .nav-link {
-	padding: 8px 10px;
+	display: inline-block;
+	padding: 15px 20px;
 	color: #423736;
 	background: #D6AA9F;
 	text-decoration: none;
 	font-weight: bold;
 	font-family: Arial;
+	font-size: 20px;
 }
 .nav-link:hover{
 	color: #423736;
 	background: #E9D5B7;
+	box-shadow: 0px 10px 6px -6px #423736;
 }
