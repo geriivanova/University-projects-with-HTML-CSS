@@ -160,9 +160,16 @@ p{
 	font-weight: bold;
 	font-size: 24px;
 	color: #FF2C97;
+	margin-bottom: 70px;
 }
-
 .button{
 	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
 	color: #FF2C97;
+	background-color: #F4E2D1;
+	padding: 10px;
+}
+.button:hover{
+
 }
