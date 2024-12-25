@@ -84,15 +84,19 @@
 }
 h2{
 	color: #423736;
-	isolation: isolate;
+	/*isolation: isolate;*/
 	text-align: center;
 	font-family: Sofia;
-	margin: 50px;
-
+	/*margin-bottom: 50px;*/
+  	margin: 0;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
 }
 h3{
 	color: #423736;
 	isolation: isolate;
 	text-align: center;
 	font-family: Lucida Console;
+
 }
