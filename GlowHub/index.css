@@ -137,22 +137,32 @@ p{
 	padding-left: 100px;
 }
 .rightcol{
-	display: flex;
+	width: 600px;
+	align-content: center;
 	justify-content: center;
 	align-items: center;
 	padding-left: 50px;
 }
-.textcontainer{
-	display: flex;
-	flex-direction: column;
-}
+
 .text1{
 	font-weight: bold;
     font-family: Lucida Console;
+    font-size: 28px;
     color: #423736;
+    margin-bottom: 100px;
+    line-height: 32px;
+}
+.pink{
+	color: #FF2C97;
 }
 .text2{
 	font-family: Sofia;
 	font-weight: bold;
-	color: #987185;
+	font-size: 24px;
+	color: #FF2C97;
+}
+
+.button{
+	text-decoration: none;
+	color: #FF2C97;
 }
