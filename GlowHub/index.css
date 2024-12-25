@@ -67,6 +67,10 @@
 	font-family: Lucida Console;
 	color: #987185;
 }
-h2{
-	background-image: url('background2.jpeg');
+.mainheader{
+	background-image:url(images/background2.jpg);
+	height: 600px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    opacity: 0.6;
 }
