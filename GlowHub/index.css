@@ -188,14 +188,14 @@ h3{
 	font-size: 32px;
 	font-weight: bold;
 	margin-top: 80px;
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 }
 .container{
 	width: 100%;
 	max-width: 1500px;
 	margin: 0 auto;
-	padding: 20px;
-	text-align: center;
+	padding: 10px;
+	text-align: left;
 }
 .firstrow{
 	display: flex;
