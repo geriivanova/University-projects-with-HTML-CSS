@@ -178,7 +178,7 @@ h3{
 	background-color: #FF2C97;
 }
 
-.pheader > p{
+.productsheader > p{
 	text-align: center;
 	font-family: Lucida Console;
 	font-size: 32px;
@@ -186,5 +186,20 @@ h3{
 	margin-top: 80px;
 	margin-bottom: 50px;
 }
-.firstproduct{
+
+.firstrow{
+	width: 1300px;
+	display: flex;
+}
+.secondrow{
+	display:flex;
+	width: 1300px;
+}
+.product{
+	display: flex;
+	margin-bottom: 60px;
+	padding-left: 100px;
+}
+.scratched{
+
 }
