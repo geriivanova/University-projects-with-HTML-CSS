@@ -184,21 +184,26 @@ h3{
 	font-size: 32px;
 	font-weight: bold;
 	margin-top: 80px;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 
 .firstrow{
-	width: 1300px;
 	display: flex;
 }
 .secondrow{
 	display:flex;
-	width: 1300px;
 }
 .product{
 	display: flex;
-	margin-bottom: 60px;
+	margin-bottom: 100px;
 	padding-left: 100px;
+	width: 700px;
+}
+.ptitle{
+	width: 200px;
+	align-content: center;
+	margin-left: 30px;
+	
 }
 .scratched{
 
