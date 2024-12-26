@@ -191,6 +191,11 @@ h3{
 	margin-bottom: 100px;
 }
 .container{
+	width: 100%;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
 }
 .firstrow{
 	display: flex;
