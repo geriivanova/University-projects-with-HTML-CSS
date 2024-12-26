@@ -131,10 +131,6 @@ p{
 	margin-top: 100px;
 }
 
-.textcontainer{
-
-}
-
 .leftcol{
 	display: flex;
 	justify-content: center;
@@ -180,4 +176,8 @@ p{
 .button:hover{
 	color: white;
 	background-color: #FF2C97;
+}
+
+.pheader{
+	text-align: center;
 }
