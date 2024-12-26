@@ -13,7 +13,7 @@
 	text-align: center;
 	display: flex; 
 	align-items: center;
-	justify-content: center; 
+	justify-content: center;
 }
 
 .logoimg {
@@ -22,7 +22,7 @@
 }
 
 .logo {
-	width: 200px;
+	width: 150px;
 	height: auto; 
 }
 
@@ -64,8 +64,8 @@
 
 .headertext{
 	text-align: center;
-	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	font-family: Lucida Console;
 	color: #987185;
 }
