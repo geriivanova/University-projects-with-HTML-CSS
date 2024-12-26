@@ -107,7 +107,7 @@ h3{
     font-family: Lucida Console;
 }
 
-p{
+.mainheader > p{
 	color: #423736;
 	margin: 10px;
     font-size: 1.5rem;
@@ -178,6 +178,13 @@ p{
 	background-color: #FF2C97;
 }
 
-.pheader{
+.pheader > p{
 	text-align: center;
+	font-family: Lucida Console;
+	font-size: 32px;
+	font-weight: bold;
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+.firstproduct{
 }
