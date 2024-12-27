@@ -104,7 +104,7 @@ h2 {
 
 .form-section {
     background-color: #fff;
-    margin: 20px 0;
+    margin: 100px 0;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -115,7 +115,7 @@ h2 {
     margin-top: 5px;
 }
 .form-section form {
-    text-align: center;
+    text-align: left;
 }
 
 .contact-section a {
@@ -129,21 +129,23 @@ h2 {
 }
 
 .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .form-group label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-    color: #333;
+    font-family:Lato;
+    font-size: 20px;
+    color: #987185;
 }
 
 .form-group input,
 .form-group textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #FF2C97;
     border-radius: 4px;
     font-size: 16px;
 }
