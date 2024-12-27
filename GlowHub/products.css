@@ -1,0 +1,157 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	padding-left: 0;
+	margin: 0;
+	background: #987185;
+	padding-top: 0; 
+	padding-bottom: 0;
+	text-align: center;
+	display: flex; 
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logoimg {
+	margin-right: 100px;
+	margin-left: 50px;
+}
+
+.logo {
+	width: 150px;
+	height: auto; 
+}
+
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	align-items: center; 
+	list-style: none;
+}
+
+.nav-item {
+	margin: 0 16px; 
+	box-shadow: 0px 10px 6px -6px #F4E2D1;
+}
+
+.nav-link {
+	display: inline-block;
+	padding: 15px 20px;
+	color: #423736;
+	background: #D6AA9F;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 20px;
+}
+.nav-link:hover{
+	color: #423736;
+	background: #E9D5B7;
+	box-shadow: 0px 10px 6px -6px #423736;
+}
+@font-face {
+  font-family: 'Sofia';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/sofia/v14/8QIHdirahM3j_su5uI0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.headertext{
+	text-align: center;
+	padding-top: 110px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: Lucida Console;
+	color: #987185;
+}
+
+
+
+.footer-container {
+    background-color: #987185;
+    padding: 20px;
+    color: #F4E2D1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.side-logo {
+    width: 200px;
+    height: auto;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.footer-logo .logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.footer-item {
+    margin: 5px 0;
+}
+.footer-link {
+    text-decoration: none;
+    color: #F4E2D1;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+.footer-link:hover {
+    color: #423736;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.social-link img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+.social-link img:hover {
+    transform: scale(1.2);
+}
+.footer-text {
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: Lucida Console;
+}
