@@ -203,9 +203,15 @@ h3{
 .secondrow{
 	display:flex;
 }
-.product{
+.firstrow .product{
 	display: flex;
 	margin-bottom: 100px;
+	padding-left: 100px;
+	width: 700px;
+}
+.secondrow .product{
+	display: flex;
+	margin-bottom: 40px;
 	padding-left: 100px;
 	width: 700px;
 }
@@ -262,8 +268,26 @@ h3{
 .pimg:hover{
 	 transform: scale(1.1);
 }
-
-
+.BUTTON{
+	text-align: center;
+	margin-bottom: 100px;
+}
+.button3{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FF2C97;
+	background-color: #F4E2D1;
+	padding: 10px;
+	border: 3px solid #F4E2D1;
+	border-radius: 4px;
+}
+.button3:hover{
+	color: white;
+	background-color: #FF2C97;
+	border: 3px solid #FF2C97;
+	border-radius: 4px;
+}
 
 .footer-container {
     background-color: #987185;
