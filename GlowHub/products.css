@@ -97,13 +97,19 @@
 	justify-content: center;
 	align-items: center;
 }
+
+.fullcontainer{
+		background-color: #ddb5b0;
+		width: 100%;
+}
 .product-gallery {
         display: flex;
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
     		gap: 20px;
     		justify-content: center;
         padding: 20px;
-        background-color: #ddb5b0;
+        width: 1500px;
+				margin: 0 auto;
     }
 
     .product-row {
@@ -112,7 +118,7 @@
         gap: 20px;
     }
 
-    .product {
+ .product {
         display: flex;
         gap: 20px;
         align-items: center;
