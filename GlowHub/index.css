@@ -71,7 +71,7 @@
 	padding-top: 110px;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	font-family: Lucida Console;
+	font-family: Bahnschrift Light;
 	color: #987185;
 }
 
@@ -109,7 +109,7 @@ h3{
 	color: #423736;
 	margin: 10px;
     font-size: 1.5rem;
-    font-family: Lucida Console;
+    font-family: Bahnschrift Light;
 }
 
 .mainheader > p{
@@ -117,7 +117,7 @@ h3{
 	margin: 10px;
     font-size: 1.5rem;
     font-weight: bold;
-    font-family: Lucida Console;
+    font-family: Bahnschrift Light;
 }
 .maintext > p{
 	color: #987185;
@@ -126,7 +126,7 @@ h3{
 	line-height: 1.5rem;
     font-size: 1.5rem;
     font-weight: bold;
-    font-family: Lucida Console;
+    font-family: Bahnschrift Light;
 }
 
 .mainpart{
