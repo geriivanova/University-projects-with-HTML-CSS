@@ -95,6 +95,13 @@ h2 {
     font-size: 38px;
 }
 
+.address{
+    font-family: Lato;
+    font-weight: bold;
+    color: #987185;
+    font-size: 20px;
+}
+
 .form-section {
     background-color: #fff;
     margin: 20px 0;
