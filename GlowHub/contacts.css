@@ -115,7 +115,7 @@ h2 {
     margin-top: 5px;
 }
 .form-section form {
-    text-align: left;
+    text-align: center;
 }
 
 .contact-section a {
@@ -143,7 +143,7 @@ h2 {
 
 .form-group input,
 .form-group textarea {
-    width: 100%;
+    width: 50%;
     padding: 10px;
     border: 1px solid #FF2C97;
     border-radius: 4px;
@@ -152,7 +152,8 @@ h2 {
 
 button {
     display: block;
-    width: 100%;
+    width: 20%;
+    margin-left: 470px;
     padding: 10px;
     background-color: #d63384;
     color: #fff;
@@ -164,7 +165,8 @@ button {
 }
 
 button:hover {
-    background-color: #c21873;
+    background-color: lightpink;
+    color: #d63384;
 }
 
 .contact-section {
