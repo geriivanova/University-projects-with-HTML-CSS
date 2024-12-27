@@ -101,6 +101,7 @@
 .fullcontainer{
 		background-color: #ddb5b0;
 		width: 100%;
+		margin-bottom: 50px;
 }
 .product-gallery {
         display: flex;
@@ -130,7 +131,10 @@
         border-radius: 10px;
         margin-right: 40px;
     }
+.product-row:last-child{
+	margin-bottom: 50px;
 
+}
     .image-container {
         position: relative;
         width: 1500px;
