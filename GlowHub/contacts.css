@@ -88,8 +88,11 @@
 }
 h2 {
     text-align: center;
-    color: #333;
+    color: #423736;
     margin-bottom: 40px;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 38px;
 }
 
 .form-section {
@@ -100,14 +103,18 @@ h2 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.contact-section p,
+.contact-section p{
+    text-align: center;
+    margin-top: 5px;
+}
 .form-section form {
     text-align: center;
 }
 
 .contact-section a {
-    color: #d63384;
+    color: #FF2C97;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .contact-section a:hover {
@@ -152,7 +159,7 @@ button:hover {
 }
 
 .contact-section {
-    height: 600px;
+    height: 640px;
     position: relative;
 }
 
@@ -164,8 +171,15 @@ button:hover {
     content: '';
     position: absolute;
     inset: 0;
-    opacity: 0.7;
+    opacity: 0.4;
 }
+.contact-section>p{
+    color: white;
+    font-family: Lucida Console;
+    font-weight: bold;
+    font-size: 28px;
+}
+
 
 
 
