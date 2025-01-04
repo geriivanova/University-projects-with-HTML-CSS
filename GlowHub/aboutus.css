@@ -182,6 +182,7 @@ h1, h2, h3 {
     margin-top: 30px;
     margin-bottom: 20px;
 }
+
 .value-item p{
     line-height: 1.4;
     font-family: Bahnschrift Light;
@@ -198,6 +199,7 @@ h1, h2, h3 {
 .text-content h2{
     margin-bottom: 30px;
 }
+
 .text-content p{
     line-height: 1.5;
     font-family: Bahnschrift Light;
