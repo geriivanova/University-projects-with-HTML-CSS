@@ -119,6 +119,7 @@ h1, h2, h3 {
 .about{
     background-color:#E9D5B7;
 }
+
 .about-item {
     display: flex;
     align-items: center;
