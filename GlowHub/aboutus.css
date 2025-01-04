@@ -192,11 +192,13 @@ h1, h2, h3 {
 
 .value-item h3{
     margin-bottom: 20px;
+    font-size: 24px;
 }
 
 .value-item p{
     line-height: 1.4;
     font-family: Bahnschrift Light;
+    font-size: 18px;
     font-weight: bold;
     color: #FF2C97;
 }
