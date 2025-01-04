@@ -312,9 +312,13 @@ h3{
     display: flex;
     justify-content: center; 
     align-items: center; 
-    padding: 50px 20px; 
+    padding-top: 80px;
     background-color: #F4E2D1; 
     gap: 70px; 
+}
+.therapy:last-child{
+	margin-bottom: 50px;
+	padding-bottom: 80px;
 }
 
 
@@ -348,6 +352,12 @@ h3{
     height: auto;
     border-radius: 10px;
 }
+
+.therapy .image-content img:hover{
+	transform: scale(1.05);
+	box-shadow: 2px 6px 10px rgba(255, 44, 151, 0.4);
+}
+
 .therapy.reverse-therapy{
 	flex-direction: row-reverse;
 }
