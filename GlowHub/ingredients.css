@@ -118,7 +118,7 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .infoimg{
     display: flex;
@@ -126,20 +126,27 @@
 }
 .infoimg img{
     border-radius: 20px;
+    box-shadow: 3px 7px 12px rgba(0, 0, 0, 0.5);
 }
 .infotext{
     width: 600px;
 }
 .infotext p{
     color: #FF2C97;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: Bahnschrift Light;
+}
+.infotext h2{
+    color: #423736;
     font-family: Bahnschrift Light;
 }
 .infotext li{
     font-size: 20px;
     font-family: Bahnschrift Light;
 }
-
+.color{
+    color: #987185;
+}
 
 
 .footer-container {
