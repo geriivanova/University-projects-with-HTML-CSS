@@ -136,6 +136,7 @@
     color: #FF2C97;
     font-size: 18px;
     font-family: Bahnschrift Light;
+    text-transform: uppercase;
 }
 .infotext h2{
     color: #423736;
