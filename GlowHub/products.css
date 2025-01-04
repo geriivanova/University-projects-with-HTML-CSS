@@ -171,7 +171,9 @@
 	font-size: 25px;
 	color: #FF2C97;
 	border: 2px solid #FF2C97;
+	text-decoration: none;
 }
+
     .image-container:hover .price-overlay {
         display: block;
     }
@@ -203,6 +205,8 @@
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
+
+
 
 
 .footer-container {
