@@ -68,9 +68,117 @@
 .pink{
     color: #FF2C97;
 }
+.headertext{
+    text-align: center;
+    padding-top: 110px;
+    margin-top: 30px;
+    font-family: Bahnschrift Light;
+    color: #987185;
+    margin-bottom: 30px;
+}
 
+.haircare{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.haircare img{
+    width: 700px;
+    height: auto;
+}
 
+main{
+    background-color: #E9D5B7;
+}
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 50px auto;
+    padding: 10px;
+}
 
+section {
+    margin: 50px 0;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #423736;
+}
+
+.intro {
+    text-align: center;
+    padding: 60px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(255, 44, 151, 0.6);
+    border-radius: 10px;
+}
+.about{
+    background-color:#E9D5B7;
+}
+.about-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(255, 44, 151, 0.6);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+.about-item img {
+    width: 50%;
+    height: auto;
+    padding: 60px;
+}
+
+.about-item .text-content {
+    padding: 20px;
+}
+
+.about-item.reverse {
+    flex-direction: row-reverse;
+}
+
+.values {
+    text-align: center;
+}
+
+.value-item {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    padding: 60px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(255, 44, 151, 0.6);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.value-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.intro p{
+    margin-top: 20px;
+    font-family: Bahnschrift Light;
+    color: #FF2C97;
+    font-size: 18px;
+}
+.text-content h2{
+    margin-bottom: 30px;
+}
+.text-content p{
+    line-height: 1.5;
+    font-family: Bahnschrift Light;
+    color: #987185;
+    font-size: 18px;
+}
 
 
 
