@@ -3,7 +3,9 @@
 	margin: 0;
 	padding: 0;
 }
-
+.headercontainer{
+	display: flex;
+}
 .navbar {
 	padding-left: 0;
 	margin: 0;
@@ -15,9 +17,9 @@
 	align-items: center;
 	justify-content: center;
 	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 1000;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .logoimg {
@@ -44,14 +46,14 @@
 }
 
 .nav-link {
-	display: inline-block;
+	display: flex;
 	padding: 15px 20px;
 	color: #423736;
 	background: #D6AA9F;
 	text-decoration: none;
 	font-weight: bold;
 	font-family: Arial;
-	font-size: 20px;
+	font-size: 18px;
 }
 .nav-link:hover{
 	color: #423736;
@@ -59,11 +61,27 @@
 	box-shadow: 0px 10px 6px -6px #423736;
 }
 @font-face {
-	font-family: 'Sofia';
-	font-style: normal;
-	font-weight: 400;
-	src: url(https://fonts.gstatic.com/s/sofia/v14/8QIHdirahM3j_su5uI0.woff2) format('woff2');
-	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-family: 'Sofia';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/sofia/v14/8QIHdirahM3j_su5uI0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.cart-icon {
+    width: 24px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.headertext{
+	text-align: center;
+	padding-top: 110px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: Bahnschrift Light;
+	color: #987185;
 }
 .pink{
 	color: #FF2C97;
