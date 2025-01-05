@@ -331,3 +331,83 @@ h1, h2, h3 {
     font-size: 14px;
     font-family: Lucida Console;
 }
+
+@media (max-width: 768px) {
+  header .navbar {
+    flex-direction: column;
+  }
+  
+  header .navbar ul {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .about {
+    flex-direction: column;
+  }
+  
+  .about-item {
+    width: 100%;
+  }
+
+  .valuescontainer {
+    padding: 0;
+  }
+
+  .valuesgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .value-item {
+    text-align: center;
+  }
+
+  .value-item img {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  .intro h1 {
+    font-size: 2rem;
+  }
+
+  .intro p {
+    font-size: 1rem;
+  }
+
+  .about-item h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-item p {
+    font-size: 0.9rem;
+  }
+
+  .navbar li {
+    margin-left: 10px;
+  }
+
+  .footer-container {
+    text-align: center;
+  }
+
+  .footer-nav {
+    padding-left: 0;
+  }
+
+  .footer-nav li {
+    margin-bottom: 10px;
+  }
+
+  .social-icons a {
+    margin-right: 15px;
+  }
+}
