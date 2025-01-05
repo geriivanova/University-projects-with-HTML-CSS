@@ -88,6 +88,7 @@
 	font-size: 24px;
 	font-family: Lucida Console;
 	color: #FF2C97;
+	line-height:1.2;
 }
 .style{
 		display: flex;
@@ -97,6 +98,8 @@
     margin: 0;
     padding: 20px;
     box-sizing: border-box;
+    margin-top:50px;
+    margin-bottom:50px;
 }
 .gallery {
     display: grid;
