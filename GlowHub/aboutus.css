@@ -102,16 +102,17 @@ main{
 
 section {
     margin: 50px 0;
+}
+section, .about-item, .value-item{
     transition: filter 0.3s ease, opacity 0.3s ease;
 }
-section.blurred {
+.blurred {
     filter: blur(5px);
-    opacity: 0.5;
+    pointer-events: none;
 }
 
-section.focused {
+.focused {
     filter: none;
-    opacity: 1;
 }
 
 
