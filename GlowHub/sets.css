@@ -235,7 +235,7 @@
 
 .gallerytext{
     text-align: center;
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 .gallerytext h3{
@@ -248,19 +248,26 @@
     font-size: 24px;
     font-family: Bahnschrift Light;
     color: #423736;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
-button {
+.button {
     padding: 10px 20px;
-    background-color: #000;
-    color: #fff;
+    background-color: #FF2C97;
+    color: white;
     border: none;
     cursor: pointer;
+    border: 3px solid #FF2C97;
+    border-radius: 3px;
+    font-size: 20px;
+    text-decoration: none;
 }
 
-button:hover {
-    background-color: #555;
+.button:hover {
+    background-color: white;
+    color: #FF2C97;
+    border: 3px solid #FF2C97;
+    border-radius: 3px;
 }
 
 
