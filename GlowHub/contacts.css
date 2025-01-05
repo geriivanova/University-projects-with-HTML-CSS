@@ -287,3 +287,73 @@ button:hover {
     font-size: 14px;
     font-family: Lucida Console;
 }
+
+@media (max-width: 768px) {
+  header .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header .navbar ul {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .contact-section, .form-section {
+    padding: 10px;
+  }
+
+  .contact-section .container, .form-section .container2 {
+    padding: 0;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  form {
+    padding: 15px;
+  }
+
+  footer .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer .footer-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .social-icons {
+    justify-content: center;
+  }
+
+  footer .footer-images {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  form input, form textarea {
+    padding: 8px;
+  }
+
+  footer .footer-container {
+    padding: 20px 10px;
+  }
+
+  footer .footer-nav li {
+    margin-bottom: 5px;
+  }
+
+  footer .social-icons a {
+    margin-right: 10px;
+  }
+}
