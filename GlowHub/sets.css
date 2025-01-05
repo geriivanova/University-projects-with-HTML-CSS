@@ -209,6 +209,61 @@
 }
 
 
+.gallery-photos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 80%;
+}
+
+.gallery-item {
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallerytext{
+    text-align: center;
+    padding-top: 200px;
+}
+
+.gallerytext h3{
+    font-size: 36px;
+    font-family: Bahnschrift Light;
+    color: #423736;
+    margin-bottom: 20px;
+}
+.gallerytext p{
+    font-size: 24px;
+    font-family: Bahnschrift Light;
+    color: #423736;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
 
 
 .footer-container {
