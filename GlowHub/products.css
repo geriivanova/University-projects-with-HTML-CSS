@@ -264,19 +264,23 @@
 
 .center-button {
     margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 .button {
-    background-color: #007bff;
+    background-color: #FF2C97;
     color: white;
     padding: 15px 30px;
     text-decoration: none;
     border-radius: 5px;
     font-size: 18px;
+    font-family: Bahnschrift Light;
 }
 
 .button:hover {
-    background-color: #0056b3;
+    background-color: white;
+    color: #FF2C97;
+    border: 3px solid #FF2C97;
 }
 
 
