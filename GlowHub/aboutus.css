@@ -88,6 +88,14 @@
 .haircare img{
     width: 700px;
     height: auto;
+    border-radius: 20px;
+    box-shadow: 2px 4px 10px rgba(255,44,151, 0.6);
+    
+}
+.haircare img:hover{
+    border-radius: 20px;
+    box-shadow: 2px 4px 10px rgba(255,44,151, 0.6);
+    transform: scale(1.02);
 }
 
 main{
