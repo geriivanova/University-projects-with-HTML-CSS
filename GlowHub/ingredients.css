@@ -238,3 +238,52 @@
     font-size: 14px;
     font-family: Lucida Console;
 }
+
+@media (max-width: 768px) {
+    .navbar .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info1 {
+        flex-direction: column;
+    }
+
+    .infoimg, .infotext {
+        flex: 1 1 100%;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        margin-bottom: 15px;
+    }
+
+    .social-icons {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar .nav {
+        font-size: 14px;
+    }
+
+    .text1 h1 {
+        font-size: 20px;
+    }
+
+    .info1 {
+        flex-direction: column;
+    }
+
+    .infoimg, .infotext {
+        flex: 1 1 100%;
+    }
+
+    .footer-text {
+        font-size: 12px;
+    }
+}
